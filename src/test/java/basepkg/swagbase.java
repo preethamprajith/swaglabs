@@ -16,13 +16,14 @@ import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-
+import swagpagepkg.swaghomepage;
 import swagpagepkg.swagloginpage;
 
 public class swagbase {
 	
 	public static WebDriver driver;
    public static swagloginpage loginobj;
+   public static swaghomepage homeobj;
 
 	
 	
@@ -63,6 +64,7 @@ public class swagbase {
 	{
 		loginobj = new swagloginpage(driver);
 		
+		homeobj = new swaghomepage(driver);
 		
 	}
 	

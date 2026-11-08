@@ -1,78 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-08T06:05:04 IST" name="Default suite" finished-at="2026-11-08T06:05:09 IST" duration-ms="5014">
+  <suite started-at="2026-11-08T08:45:00 IST" name="Suite" finished-at="2026-11-08T08:45:04 IST" duration-ms="3991">
     <groups>
     </groups>
-    <test started-at="2026-11-08T06:05:04 IST" name="Default test" finished-at="2026-11-08T06:05:09 IST" duration-ms="5014">
+    <test started-at="2026-11-08T08:45:00 IST" name="Test" finished-at="2026-11-08T08:45:04 IST" duration-ms="3991">
       <class name="swagtestpkg.swaglogintest">
-        <test-method is-config="true" signature="browsersetup()[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:04 IST" name="browsersetup" finished-at="2026-11-08T06:05:08 IST" duration-ms="3727" status="PASS">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:00 IST" name="browsersetup" finished-at="2026-11-08T08:45:03 IST" duration-ms="2857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsersetup -->
-        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="objectmethod" finished-at="2026-11-08T06:05:08 IST" duration-ms="39" status="PASS">
+        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="objectmethod" finished-at="2026-11-08T08:45:03 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectmethod -->
-        <test-method signature="titileverification()[pri:1, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="titileverification" finished-at="2026-11-08T06:05:08 IST" duration-ms="33" status="PASS">
+        <test-method signature="titileverification()[pri:1, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="titileverification" finished-at="2026-11-08T08:45:03 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titileverification -->
-        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="aftmthd" finished-at="2026-11-08T06:05:08 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="aftmthd" finished-at="2026-11-08T08:45:03 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=titileverification status=SUCCESS method=swaglogintest.titileverification()[pri:1, instance:swagtestpkg.swaglogintest@6a78afa0] output={null}]]]>
+                <![CDATA[[TestResult name=titileverification status=SUCCESS method=swaglogintest.titileverification()[pri:1, instance:swagtestpkg.swaglogintest@10683d9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftmthd -->
-        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="objectmethod" finished-at="2026-11-08T06:05:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="objectmethod" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectmethod -->
-        <test-method signature="loginvalidation()[pri:2, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="loginvalidation" finished-at="2026-11-08T06:05:08 IST" duration-ms="218" status="PASS">
+        <test-method signature="loginvalidation()[pri:2, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="loginvalidation" finished-at="2026-11-08T08:45:03 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginvalidation -->
-        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="aftmthd" finished-at="2026-11-08T06:05:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="aftmthd" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginvalidation status=SUCCESS method=swaglogintest.loginvalidation()[pri:2, instance:swagtestpkg.swaglogintest@6a78afa0] output={null}]]]>
+                <![CDATA[[TestResult name=loginvalidation status=SUCCESS method=swaglogintest.loginvalidation()[pri:2, instance:swagtestpkg.swaglogintest@10683d9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftmthd -->
-        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="objectmethod" finished-at="2026-11-08T06:05:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="objectmethod" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectmethod -->
-        <test-method signature="urlvalidation()[pri:3, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="urlvalidation" finished-at="2026-11-08T06:05:08 IST" duration-ms="71" status="PASS">
+        <test-method signature="urlvalidation()[pri:3, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="urlvalidation" finished-at="2026-11-08T08:45:03 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlvalidation -->
-        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="aftmthd" finished-at="2026-11-08T06:05:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="aftmthd" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=urlvalidation status=SUCCESS method=swaglogintest.urlvalidation()[pri:3, instance:swagtestpkg.swaglogintest@6a78afa0] output={null}]]]>
+                <![CDATA[[TestResult name=urlvalidation status=SUCCESS method=swaglogintest.urlvalidation()[pri:3, instance:swagtestpkg.swaglogintest@10683d9d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftmthd -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:swagtestpkg.swaglogintest@6a78afa0]" started-at="2026-11-08T06:05:08 IST" name="endReport" finished-at="2026-11-08T06:05:09 IST" duration-ms="832" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:swagtestpkg.swaglogintest@10683d9d]" started-at="2026-11-08T08:45:03 IST" name="endReport" finished-at="2026-11-08T08:45:04 IST" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- swagtestpkg.swaglogintest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="swagtestpkg.swaghometest">
+        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaghometest@7dcf94f8]" started-at="2026-11-08T08:45:03 IST" name="objectmethod" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectmethod -->
+        <test-method signature="textverification()[pri:1, instance:swagtestpkg.swaghometest@7dcf94f8]" started-at="2026-11-08T08:45:03 IST" name="textverification" finished-at="2026-11-08T08:45:03 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textverification -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaghometest@7dcf94f8]" started-at="2026-11-08T08:45:03 IST" name="aftmthd" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textverification status=SUCCESS method=swaghometest.textverification()[pri:1, instance:swagtestpkg.swaghometest@7dcf94f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+        <test-method is-config="true" signature="objectmethod()[pri:0, instance:swagtestpkg.swaghometest@7dcf94f8]" started-at="2026-11-08T08:45:03 IST" name="objectmethod" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectmethod -->
+        <test-method signature="linkverification()[pri:2, instance:swagtestpkg.swaghometest@7dcf94f8]" started-at="2026-11-08T08:45:03 IST" name="linkverification" finished-at="2026-11-08T08:45:03 IST" depends-on-methods="swagtestpkg.swaghometest.textverification" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkverification -->
+        <test-method is-config="true" signature="aftmthd(org.testng.ITestResult)[pri:0, instance:swagtestpkg.swaghometest@7dcf94f8]" started-at="2026-11-08T08:45:03 IST" name="aftmthd" finished-at="2026-11-08T08:45:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=linkverification status=SUCCESS method=swaghometest.linkverification()[pri:2, instance:swagtestpkg.swaghometest@7dcf94f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmthd -->
+      </class> <!-- swagtestpkg.swaghometest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
